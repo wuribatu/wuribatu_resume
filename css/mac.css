@@ -1,0 +1,110 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url("../images/apple.jpg");
+}
+
+#file:hover {
+    width: 60px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+#header {
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0 1px 10px black;
+    height: 30px;
+}
+
+#header .header-left {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#header .header-left li {
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 7px;
+    font-size: 15px;
+}
+
+#header .header-left li:hover {
+    cursor: pointer;
+}
+
+#header .header-right {
+    float: right;
+    margin-right: 15px;
+}
+
+#header .header-right li {
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 7px;
+}
+
+#header .header-right li:hover {
+    cursor: pointer;
+}
+
+#file {
+    width: 60px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+#file img {
+    width: 60px;
+    height: 60px;
+}
+
+#file p {
+    margin-top: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#footer {
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#footer .dock {
+    width: 1000px;
+    height: 100%;
+    line-height: 60px;
+    opacity: 0.8;
+    margin: 0 auto;
+    background-color: #ddd;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    text-align: center;
+}
+
+#footer .dock ul {
+    display: inline-block;
+}
+
+#footer .dock img {
+    width: 70px;
+    height: 70px;
+    margin: 0 6px;
+}
+
+#footer ul li {
+    display: inline-block;
+    -webkit-transition:0.25s linear
+}
+
+#footer ul li:hover {
+    -webkit-transform-origin:bottom center;
+    -webkit-transform:scale(1.6);
+}

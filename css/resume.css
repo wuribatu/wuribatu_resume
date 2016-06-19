@@ -1,0 +1,38 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var {
+    margin: 0px;
+    padding: 0px;
+}
+
+.module {
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#header h2 {
+    display: inline-block;
+}
+
+img {
+    width: 110px;
+    height: 150px;
+    float: right;
+}
+
+.left {
+    display: inline-block;
+    list-style: none;
+}
+
+.right {
+    display: inline-block;
+    list-style: none;
+    position: absolute;
+    left: 250px;
+}
+
+.module p a {
+    color: #000000;
+}
